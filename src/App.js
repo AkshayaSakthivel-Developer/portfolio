@@ -541,7 +541,7 @@ function App() {
       <p>Kaashiv Infotech</p>
       <p>Issued: July 19, 2024</p>
       <a
-        href="/certificates/IV.jpeg.jpg"
+        href="/certificates/IV.jpeg"
         target="_blank"
         rel="noopener noreferrer"
         className="certificate-btn"
