@@ -527,7 +527,7 @@ function App() {
       <p>Issued: March 8, 2026</p>
 
       <a
-        href="/certificates/git-in-tamil.pdf"
+        href="/certificates/Git Certificate.png"
         target="_blank"
         rel="noopener noreferrer"
         className="certificate-btn"
