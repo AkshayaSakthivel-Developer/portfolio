@@ -512,7 +512,7 @@ function App() {
       <p>Issued: September 15, 2026</p>
 
       <a
-        href="/certificates/Full-Stack.png"
+        href={`${process.env.PUBLIC_URL}/certificates/Full-Stack.png`}
         target="_blank"
         rel="noopener noreferrer"
         className="certificate-btn"
@@ -527,7 +527,7 @@ function App() {
       <p>Issued: March 8, 2026</p>
 
       <a
-        href="/certificates/Git Certificate.png"
+        href={`${process.env.PUBLIC_URL}/certificates/Git Certificate.png`}
         target="_blank"
         rel="noopener noreferrer"
         className="certificate-btn"
@@ -541,7 +541,7 @@ function App() {
       <p>Kaashiv Infotech</p>
       <p>Issued: July 19, 2024</p>
       <a
-        href="/certificates/IV.jpeg"
+        href={`${process.env.PUBLIC_URL}/certificates/IV.jpeg`}
         target="_blank"
         rel="noopener noreferrer"
         className="certificate-btn"
@@ -555,7 +555,7 @@ function App() {
       <p>NoviTech R&D Private Limited</p>
       <p>3-hour Bootcamp · August 25, 2024</p>
       <a
-        href="/certificates/MERN stack.jpg"
+        href={`${process.env.PUBLIC_URL}/certificates/MERN stack.jpg`}
         target="_blank"
         rel="noopener noreferrer"
         className="certificate-btn"
@@ -569,7 +569,7 @@ function App() {
       <p>NoviTech R&D Private Limited</p>
       <p>1-hour Webinar · November 9, 2024</p>
       <a
-        href="/certificates/Phishing attack.jpg"
+        href={`${process.env.PUBLIC_URL}/certificates/Phishing attack.jpg`}
         target="_blank"
         rel="noopener noreferrer"
         className="certificate-btn"
@@ -583,7 +583,7 @@ function App() {
       <p>NoviTech R&D Private Limited</p>
       <p>1-hour Webinar · November 9, 2024</p>
       <a
-        href="/certificates/Integration and Deployment.jpg"
+        href={`${process.env.PUBLIC_URL}/certificates/Integration and Deployment.jpg`}
         target="_blank"
         rel="noopener noreferrer"
         className="certificate-btn"
@@ -597,7 +597,7 @@ function App() {
 <p>SRM</p>
 <p>Course Completion Certificate</p>
       <a
-        href="/certificates/Spoken Eng.jpeg"
+        href={`${process.env.PUBLIC_URL}/certificates/Spoken Eng.jpeg`}
         target="_blank"
         rel="noopener noreferrer"
         className="certificate-btn"
