@@ -22,6 +22,13 @@ function App() {
           <a href="#projects">Projects</a>
           <a href="#certificates">Certificates</a>
           <a href="#contact">Contact</a>
+          <a
+  href={`${process.env.PUBLIC_URL}/resume.pdf`}
+  download="Akshaya_Sakthivel_Resume.pdf"
+  className="secondary-btn"
+>
+  Download Resume
+</a>
           
         </div>
       </nav>
@@ -114,11 +121,18 @@ function App() {
         <h2>About Me</h2>
 
         <p className="about-text">
-          I am an aspiring Full Stack Developer passionate about creating
-          responsive and user-friendly web applications. I am continuously
-          improving my skills by building real-world projects and exploring
-          modern web technologies.
-        </p>
+  I am a passionate Full-Stack Developer with a strong foundation
+  in Computer Science and a keen interest in building modern web
+  applications. I have hands-on experience working with React.js,
+  JavaScript, Redux, Python, Django, Node.js, Express.js, and
+  databases through academic and personal projects.
+
+  I enjoy developing responsive user interfaces, integrating REST
+  APIs, implementing CRUD operations, and solving real-world
+  problems through technology. I am currently pursuing my M.Sc.
+  in Computer Science and continuously improving my development
+  skills to become a professional software developer.
+</p>
 
 
         <div className="about-cards">
@@ -128,8 +142,9 @@ function App() {
             <h3>🎓 Education</h3>
 
             <p>
-              Computer Science Background
-            </p>
+  B.Sc. Computer Science Graduate | Currently Pursuing M.Sc.
+  Computer Science at Rajeswari College of Arts and Science for Women.
+</p>
 
           </div>
 
@@ -139,8 +154,9 @@ function App() {
             <h3>💻 Development</h3>
 
             <p>
-              Frontend & Backend Development
-            </p>
+  Building web applications using React.js, Redux, Python,
+  Django, Node.js, Express.js, and database technologies.
+</p>
 
           </div>
 
@@ -150,8 +166,9 @@ function App() {
             <h3>🚀 Goal</h3>
 
             <p>
-              Build impactful web applications
-            </p>
+  To become a skilled Full-Stack Developer and create
+  responsive, user-friendly, and impactful web applications.
+</p>
 
           </div>
 
@@ -172,21 +189,47 @@ function App() {
 
         <div className="skills">
 
-          <span>HTML</span>
-          <span>CSS</span>
-          <span>JavaScript</span>
-          <span>React</span>
-          <span>Redux</span>
-          <span>Python</span>
-          <span>Django</span>
-          <span>SQL</span>
-          <span>MongoDB</span>
-          <span>Express.js</span>
-          <span>Node.js</span>
-          <span>Git</span>
-          <span>GitHub</span>
+  <div className="skill-category">
+    <h3>Frontend Development</h3>
+    <div className="skill-items">
+      <span>HTML5</span>
+      <span>CSS3</span>
+      <span>JavaScript</span>
+      <span>React.js</span>
+      <span>Redux</span>
+      <span>Bootstrap</span>
+    </div>
+  </div>
 
-        </div>
+  <div className="skill-category">
+    <h3>Backend Development</h3>
+    <div className="skill-items">
+      <span>Python</span>
+      <span>Django</span>
+      <span>Node.js</span>
+      <span>Express.js</span>
+      <span>REST APIs</span>
+    </div>
+  </div>
+
+  <div className="skill-category">
+    <h3>Database</h3>
+    <div className="skill-items">
+      <span>MySQL</span>
+      <span>MongoDB</span>
+      <span>SQL</span>
+    </div>
+  </div>
+
+  <div className="skill-category">
+    <h3>Development Tools</h3>
+    <div className="skill-items">
+      <span>Git</span>
+      <span>GitHub</span>
+    </div>
+  </div>
+
+</div>
 
       </section>
 
@@ -221,16 +264,13 @@ function App() {
 
             <div className="project-tech">
 
-              <span>React</span>
-              <span>Redux</span>
-              <span>Django</span>
-              <span>REST API</span>
-              <span>Node.js</span>
-              <span>Express.js</span>
-              <span>MongoDB</span>
+  <span>React</span>
+  <span>Redux</span>
+  <span>Python</span>
+  <span>Django REST Framework</span>
+  <span>MySQL</span>
 
-
-            </div>
+</div>
 
             <a
   href="https://github.com/AkshayaSakthivel-Developer/E-commerce-App"
@@ -255,22 +295,18 @@ function App() {
             </h3>
 
             <p>
-              A full-stack social media application focused on creating
-              interactive user experiences with frontend and backend
-              functionality.
-            </p>
+  A React-based social media application designed to provide
+  an interactive user experience with reusable components
+  and state management using Redux.
+</p>
 
             <div className="project-tech">
 
-              <span>React</span>
-              <span>Django</span>
-              <span>Redux</span>
-              <span>Node.js</span>
-              <span>Express.js</span>
-              <span>MongoDB</span>
+  <span>React</span>
+  <span>Redux</span>
+  <span>JavaScript</span>
 
-
-            </div>
+</div>
 
             <a
   href="https://github.com/AkshayaSakthivel-Developer/Social-Media-App"
@@ -296,10 +332,11 @@ function App() {
             </h3>
 
             <p>
-              A full-stack campus service request management system
-              that allows students to report issues and manage service
-              requests through a user-friendly web application.
-            </p>
+  A full-stack campus service request management system
+  that enables students to report campus issues, track
+  request status, and helps staff and administrators
+  manage service requests through role-based access.
+</p>
 
             <div className="project-tech">
 

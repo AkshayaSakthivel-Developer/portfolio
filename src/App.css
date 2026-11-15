@@ -779,3 +779,54 @@ footer {
 .certificate-btn:hover {
   opacity: 0.85;
 }
+
+.skills {
+  max-width: 1000px;
+  margin: 40px auto 0;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 25px;
+}
+
+@media (max-width: 900px) {
+  .skills {
+    grid-template-columns: 1fr;
+  }
+}
+
+.skill-category {
+  background: white;
+  padding: 25px;
+  border: 1px solid #dbeafe;
+  border-radius: 15px;
+  text-align: left;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.04);
+}
+
+.skill-category h3 {
+  color: #1e3a8a;
+  font-size: 19px;
+  margin-bottom: 18px;
+}
+
+.skill-items {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.skill-items span {
+  padding: 9px 15px;
+  background: #eff6ff;
+  border-radius: 25px;
+  color: #2563eb;
+  font-size: 14px;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.skill-items span:hover {
+  background: #2563eb;
+  color: white;
+  transform: translateY(-2px);
+}
